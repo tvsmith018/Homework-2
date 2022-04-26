@@ -36,12 +36,7 @@ class MyCustomViewController: UIViewController {
     @IBOutlet weak var equal_button: UIButton!
     @IBOutlet weak var nine_button: UIButton!
     
-    override func viewDidLoad() {
-        
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
+    
     @IBAction func zero_button_input(_ sender: Any) {
         if (num_hold.isEmpty){
             num_hold.append("0")
